@@ -10,7 +10,11 @@
 ## Установка
 git clone https://github.com/shoytov/check_projects.git
 
-pip3 install -r requirements.txt
+Создайте вирутальное окрежение для проекта:   
+`python3 -m venv env`
+
+Установите необходимый набор пакетов:   
+`pip3 install -r requirements.txt`
 
 ## Запуск
 Создайте файл projects.txt, содержащий ссылки на ваши проекты в директории со скриптом.   
